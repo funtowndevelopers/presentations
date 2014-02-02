@@ -1,0 +1,12 @@
+{
+  "name": "website-sql-devtest-mgmt",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "azure": ">=0.8.0",
+    "string": "*"
+  }
+}
