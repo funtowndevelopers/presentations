@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Test Results
+  div
+  table(style='text-align: left;')
+    thead
+      tr
+        th Test Case
+        th Pass
+        th Message
+    tbody
+      each result, i in results
+        tr(style='background: ' + (result.pass ? 'green;' : 'red;') )
+          td #{result.name}
+          td #{result.pass}
+          td #{result.message}

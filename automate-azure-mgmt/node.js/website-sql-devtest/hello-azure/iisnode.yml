@@ -1,0 +1,4 @@
+loggingEnabled: true
+debuggingEnabled: true
+devErrorsEnabled: true
+node_env: production
